@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">myfirstapp</string>
+    <string name="random_images">Random Images</string>
+    <string name="show_next_image">Show Next Image</string>
+    <string name="ramdomimage">ramdomImage</string>
+    <string name="show_first_image">Show First Image</string>
 </resources>

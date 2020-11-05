@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textViewRandomImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/random_images" />
+
+    <ImageView
+        android:id="@+id/charaImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ramdomimage"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/charaButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_next_image" />
+
+    <Button
+        android:id="@+id/firstImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_first_image" />
+</LinearLayout>
